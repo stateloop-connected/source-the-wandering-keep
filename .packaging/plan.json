@@ -1,0 +1,68 @@
+{
+  "build_script": "tsc && vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "DM Sans",
+        "source": "ofl/dmsans/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "Manrope",
+        "source": "ofl/manrope/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "Playfair Display",
+        "source": "ofl/playfairdisplay/OFL.txt",
+        "spdx": "OFL-1.1"
+      }
+    ],
+    "font_files": 16,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/9ced27fb7853d930.css",
+        "sha256": "78b99a0ddcf9f95211e426d0e62619a253ca9014be3bd705507dbbbd028830ba",
+        "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&family=Playfair+Display:ital,wght@0,400;1,400&display=swap"
+      }
+    ],
+    "total_font_bytes": 234684,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "Kiril-P/the-wandering-keep",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/9ced27fb7853d930.css",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/files/15711391170917189b6c.woff2",
+    ".packaging/google-fonts/files/15f242f89f6cd4f89fbf.woff2",
+    ".packaging/google-fonts/files/1a551706a819f99c911e.woff2",
+    ".packaging/google-fonts/files/270f405a6a58f47c5bef.woff2",
+    ".packaging/google-fonts/files/28c80c6be13c4f6ff863.woff2",
+    ".packaging/google-fonts/files/359799a9f66ad73672ac.woff2",
+    ".packaging/google-fonts/files/3bfe4586eb9a33ecd5ea.woff2",
+    ".packaging/google-fonts/files/5794165e6275d1f6cfee.woff2",
+    ".packaging/google-fonts/files/5cfba09b4ddba4b184d1.woff2",
+    ".packaging/google-fonts/files/713ca32c3c8b2ada804c.woff2",
+    ".packaging/google-fonts/files/85a47c7dcfcf4c5a4133.woff2",
+    ".packaging/google-fonts/files/8b9fe9ac0c96746a9803.woff2",
+    ".packaging/google-fonts/files/92bd885486a5b3a248d5.woff2",
+    ".packaging/google-fonts/files/a80fed7886adf549fa47.woff2",
+    ".packaging/google-fonts/files/ca01630a7764b435a1f6.woff2",
+    ".packaging/google-fonts/files/f1e62f4972176a83c27e.woff2",
+    ".packaging/google-fonts/licenses/DM-Sans-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/Manrope-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/Playfair-Display-OFL-1.1.txt",
+    "src/style.css"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "bee3a04094775d2eee6da478a3561c3535cac001"
+}
